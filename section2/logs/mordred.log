@@ -1,0 +1,418 @@
+2018-05-10 14:41:18,344 - mordred.mordred - INFO - 
+2018-05-10 14:41:18,345 - mordred.mordred - INFO - ----------------------------
+2018-05-10 14:41:18,345 - mordred.mordred - INFO - Starting Mordred engine ...
+2018-05-10 14:41:18,345 - mordred.mordred - INFO - - - - - - - - - - - - - - - 
+2018-05-10 14:42:22,581 - mordred.mordred - DEBUG - Tasks Manager starting .. 
+2018-05-10 14:42:22,581 - mordred.mordred - DEBUG - backend_tasks = [<class 'mordred.task_panels.TaskPanelsAliases'>]
+2018-05-10 14:42:22,581 - mordred.mordred - DEBUG - global_tasks = [<class 'mordred.task_panels.TaskPanels'>, <class 'mordred.task_panels.TaskPanelsMenu'>]
+2018-05-10 14:42:22,606 - mordred.task_manager - DEBUG - Starting Task Manager thread Global tasks
+2018-05-10 14:42:22,606 - mordred.task_manager - DEBUG - [<class 'mordred.task_panels.TaskPanels'>, <class 'mordred.task_panels.TaskPanelsMenu'>]
+2018-05-10 14:42:22,776 - mordred.task_panels - DEBUG - Active data sources for menu: ['git', 'github', 'github', 'pipermail']
+2018-05-10 14:42:22,776 - mordred.task_manager - DEBUG - run(tasks) - run([<mordred.task_panels.TaskPanels object at 0x7f85072e8fd0>, <mordred.task_panels.TaskPanelsMenu object at 0x7f850729c358>])
+2018-05-10 14:42:23,607 - mordred.mordred - DEBUG -  Waiting for all threads to complete. This could take a while ..
+2018-05-10 14:42:23,777 - mordred.task_manager - DEBUG - Executing task <mordred.task_panels.TaskPanels object at 0x7f85072e8fd0>
+2018-05-10 14:42:23,809 - mordred.task_panels - INFO - Configuring Kibiter 6 for default index git and time frame now-90d
+2018-05-10 14:42:24,408 - mordred.task_panels - INFO - Creating the panel: Overview
+2018-05-10 14:42:26,283 - mordred.task_panels - INFO - Creating the panel: Data-Status
+2018-05-10 14:42:26,398 - mordred.task_panels - INFO - Creating the panel: Last-Month-Contributors
+2018-05-10 14:42:26,690 - mordred.task_panels - INFO - Creating the panel: About
+2018-05-10 14:42:26,817 - mordred.task_panels - INFO - Creating the panel: Affiliations
+2018-05-10 14:42:27,014 - mordred.task_panels - INFO - Creating the panel: MailingLists
+2018-05-10 14:42:27,290 - mordred.task_panels - INFO - Creating the panel: GitHub-Pull-Requests
+2018-05-10 14:42:27,540 - mordred.task_panels - INFO - Creating the panel: GitHub-Backlog
+2018-05-10 14:42:27,787 - mordred.task_panels - INFO - Creating the panel: GitHub-Pull-Requests-Timing
+2018-05-10 14:42:28,085 - mordred.task_panels - INFO - Creating the panel: GitHub-Issues
+2018-05-10 14:42:28,364 - mordred.task_panels - INFO - Not creating a panel that exists already: GitHub-Backlog
+2018-05-10 14:42:28,384 - mordred.task_panels - INFO - Creating the panel: GitHub-Issues-Timing
+2018-05-10 14:42:28,725 - mordred.task_panels - INFO - Creating the panel: Git
+2018-05-10 14:42:28,973 - mordred.task_panels - INFO - Creating the panel: Git-Demographics
+2018-05-10 14:42:29,154 - mordred.task_manager - DEBUG - Executing task <mordred.task_panels.TaskPanelsMenu object at 0x7f850729c358>
+2018-05-10 14:42:29,168 - mordred.task_panels - DEBUG - Menu for panels: {
+    "Git": {
+        "Overview": "Git",
+        "Attraction/Retention": "Git-Demographics"
+    },
+    "GitHub PRs": {
+        "Overview": "GitHub-Pull-Requests",
+        "Backlog": "GitHub-Backlog",
+        "Timing": "GitHub-Pull-Requests-Timing"
+    },
+    "GitHub Issues": {
+        "Overview": "GitHub-Issues",
+        "Backlog": "GitHub-Backlog",
+        "Timing": "GitHub-Issues-Timing"
+    },
+    "Mailing Lists": {
+        "Overview": "MailingLists"
+    }
+}
+2018-05-10 14:42:29,168 - mordred.task_panels - DEBUG - Adding mapping for dashboard title
+2018-05-10 14:42:29,220 - mordred.task_panels - DEBUG - Uploading dashboard title
+2018-05-10 14:42:29,303 - mordred.task_panels - INFO - Removing old dashboard menu, if any
+2018-05-10 14:42:29,327 - mordred.task_panels - INFO - Adding dashboard menu
+2018-05-10 14:42:29,327 - mordred.task_panels - DEBUG - Adding mapping for metadashbaord
+2018-05-10 14:42:29,434 - mordred.task_manager - DEBUG - Exiting Task Manager thread Global tasks
+2018-05-10 14:42:29,434 - mordred.mordred - DEBUG - No exceptions in threads. Let's continue ..
+2018-05-10 14:42:29,434 - mordred.mordred - DEBUG -  Task manager and all its tasks (threads) finished!
+2018-05-10 14:42:29,435 - mordred.mordred - DEBUG - Tasks Manager starting .. 
+2018-05-10 14:42:29,435 - mordred.mordred - DEBUG - backend_tasks = []
+2018-05-10 14:42:29,435 - mordred.mordred - DEBUG - global_tasks = [<class 'mordred.task_identities.TaskInitSortingHat'>]
+2018-05-10 14:42:29,436 - mordred.task_manager - DEBUG - Starting Task Manager thread Global tasks
+2018-05-10 14:42:29,436 - mordred.task_manager - DEBUG - [<class 'mordred.task_identities.TaskInitSortingHat'>]
+2018-05-10 14:42:29,436 - mordred.task_manager - DEBUG - run(tasks) - run([<mordred.task_identities.TaskInitSortingHat object at 0x7f85072a26d8>])
+2018-05-10 14:42:30,437 - mordred.mordred - DEBUG -  Waiting for all threads to complete. This could take a while ..
+2018-05-10 14:42:30,438 - mordred.task_manager - DEBUG - Executing task <mordred.task_identities.TaskInitSortingHat object at 0x7f85072a26d8>
+2018-05-10 14:42:31,252 - mordred.task_identities - DEBUG - Sortinghat initialized
+2018-05-10 14:42:31,252 - mordred.task_manager - DEBUG - Exiting Task Manager thread Global tasks
+2018-05-10 14:42:31,252 - mordred.mordred - DEBUG - No exceptions in threads. Let's continue ..
+2018-05-10 14:42:31,252 - mordred.mordred - DEBUG -  Task manager and all its tasks (threads) finished!
+2018-05-10 14:42:31,253 - mordred.mordred - INFO - Loading projects
+2018-05-10 14:42:31,253 - mordred.mordred - DEBUG - Tasks Manager starting .. 
+2018-05-10 14:42:31,253 - mordred.mordred - DEBUG - backend_tasks = []
+2018-05-10 14:42:31,253 - mordred.mordred - DEBUG - global_tasks = [<class 'mordred.task_projects.TaskProjects'>]
+2018-05-10 14:42:31,253 - mordred.task_manager - DEBUG - Starting Task Manager thread Global tasks
+2018-05-10 14:42:31,253 - mordred.task_manager - DEBUG - [<class 'mordred.task_projects.TaskProjects'>]
+2018-05-10 14:42:31,254 - mordred.task_manager - DEBUG - run(tasks) - run([<mordred.task_projects.TaskProjects object at 0x7f85072a2898>])
+2018-05-10 14:42:32,254 - mordred.mordred - DEBUG -  Waiting for all threads to complete. This could take a while ..
+2018-05-10 14:42:32,255 - mordred.task_manager - DEBUG - Executing task <mordred.task_projects.TaskProjects object at 0x7f85072a2898>
+2018-05-10 14:42:32,256 - mordred.task_projects - INFO - Reading projects data from  /projects.json 
+2018-05-10 14:42:32,256 - mordred.task_projects - DEBUG - Update project diff ['Prospector', 'D&I WG', 'GrimoireLab', 'Coordination', 'cregit', 'GHData', 'Metrics TC']
+2018-05-10 14:42:32,256 - mordred.task_manager - DEBUG - Exiting Task Manager thread Global tasks
+2018-05-10 14:42:32,256 - mordred.mordred - DEBUG - No exceptions in threads. Let's continue ..
+2018-05-10 14:42:32,257 - mordred.mordred - DEBUG -  Task manager and all its tasks (threads) finished!
+2018-05-10 14:42:32,257 - mordred.mordred - INFO - Done
+2018-05-10 14:42:32,257 - mordred.mordred - DEBUG - Tasks Manager starting .. 
+2018-05-10 14:42:32,257 - mordred.mordred - DEBUG - backend_tasks = [<class 'mordred.task_collection.TaskRawDataCollection'>, <class 'mordred.task_enrich.TaskEnrich'>, <class 'mordred.task_panels.TaskPanelsAliases'>]
+2018-05-10 14:42:32,257 - mordred.mordred - DEBUG - global_tasks = [<class 'mordred.task_projects.TaskProjects'>, <class 'mordred.task_identities.TaskIdentitiesLoad'>, <class 'mordred.task_identities.TaskIdentitiesMerge'>, <class 'mordred.task_identities.TaskIdentitiesExport'>]
+2018-05-10 14:42:32,258 - mordred.task_manager - DEBUG - Starting Task Manager thread pipermail
+2018-05-10 14:42:32,258 - mordred.task_manager - DEBUG - [<class 'mordred.task_collection.TaskRawDataCollection'>, <class 'mordred.task_enrich.TaskEnrich'>, <class 'mordred.task_panels.TaskPanelsAliases'>]
+2018-05-10 14:42:32,258 - mordred.task_manager - DEBUG - Starting Task Manager thread github
+2018-05-10 14:42:32,259 - mordred.task_manager - DEBUG - Starting Task Manager thread git
+2018-05-10 14:42:32,260 - mordred.task_manager - DEBUG - Starting Task Manager thread Global tasks
+2018-05-10 14:42:32,260 - mordred.task_manager - DEBUG - [<class 'mordred.task_collection.TaskRawDataCollection'>, <class 'mordred.task_enrich.TaskEnrich'>, <class 'mordred.task_panels.TaskPanelsAliases'>]
+2018-05-10 14:42:32,261 - mordred.task_manager - DEBUG - [<class 'mordred.task_collection.TaskRawDataCollection'>, <class 'mordred.task_enrich.TaskEnrich'>, <class 'mordred.task_panels.TaskPanelsAliases'>]
+2018-05-10 14:42:32,261 - mordred.mordred - INFO - [<class 'mordred.task_projects.TaskProjects'>, <class 'mordred.task_identities.TaskIdentitiesLoad'>, <class 'mordred.task_identities.TaskIdentitiesMerge'>, <class 'mordred.task_identities.TaskIdentitiesExport'>] will be executed on Thu, 10 May 2018 14:42:42 
+2018-05-10 14:42:32,262 - mordred.task_manager - DEBUG - [<class 'mordred.task_projects.TaskProjects'>, <class 'mordred.task_identities.TaskIdentitiesLoad'>, <class 'mordred.task_identities.TaskIdentitiesMerge'>, <class 'mordred.task_identities.TaskIdentitiesExport'>]
+2018-05-10 14:42:32,343 - mordred.task_manager - DEBUG - run(tasks) - run([<mordred.task_collection.TaskRawDataCollection object at 0x7f8506d93588>, <mordred.task_enrich.TaskEnrich object at 0x7f8506dfe198>, <mordred.task_panels.TaskPanelsAliases object at 0x7f8506da71d0>])
+2018-05-10 14:42:32,344 - mordred.task_manager - DEBUG - run(tasks) - run([<mordred.task_collection.TaskRawDataCollection object at 0x7f85072a26a0>, <mordred.task_enrich.TaskEnrich object at 0x7f8506d93d68>, <mordred.task_panels.TaskPanelsAliases object at 0x7f8506dfeeb8>])
+2018-05-10 14:42:32,346 - mordred.task_manager - DEBUG - run(tasks) - run([<mordred.task_collection.TaskRawDataCollection object at 0x7f85072a2cc0>, <mordred.task_enrich.TaskEnrich object at 0x7f85072a23c8>, <mordred.task_panels.TaskPanelsAliases object at 0x7f8506da7470>])
+2018-05-10 14:42:32,347 - mordred.task_manager - DEBUG - run(tasks) - run([<mordred.task_projects.TaskProjects object at 0x7f8506d93748>, <mordred.task_identities.TaskIdentitiesLoad object at 0x7f8506dfe6d8>, <mordred.task_identities.TaskIdentitiesMerge object at 0x7f8506dfe9e8>, <mordred.task_identities.TaskIdentitiesExport object at 0x7f8506d5cf28>])
+2018-05-10 14:42:33,345 - mordred.task_manager - DEBUG - Executing task <mordred.task_collection.TaskRawDataCollection object at 0x7f8506d93588>
+2018-05-10 14:42:33,346 - mordred.task_manager - DEBUG - Executing task <mordred.task_collection.TaskRawDataCollection object at 0x7f85072a26a0>
+2018-05-10 14:42:33,347 - mordred.task_collection - INFO - [git] raw data collection starts
+2018-05-10 14:42:33,347 - mordred.task_collection - INFO - [github] raw data collection starts
+2018-05-10 14:42:33,348 - mordred.task_projects - DEBUG - List of repos for git: ['https://github.com/chaoss/prospector', 'https://github.com/chaoss/wg_diversity_inclusion', 'https://github.com/chaoss/grimoirelab', 'https://github.com/chaoss/grimoirelab-bestiary', 'https://github.com/chaoss/grimoirelab-elk', 'https://github.com/chaoss/grimoirelab-hatstall', 'https://github.com/chaoss/grimoirelab-kidash', 'https://github.com/chaoss/grimoirelab-kingarthur', 'https://github.com/chaoss/grimoirelab-manuscripts', 'https://github.com/chaoss/grimoirelab-mordred', 'https://github.com/chaoss/grimoirelab-perceval', 'https://github.com/chaoss/grimoirelab-perceval-mozilla', 'https://github.com/chaoss/grimoirelab-perceval-opnfv', 'https://github.com/chaoss/grimoirelab-perceval-puppet', 'https://github.com/chaoss/grimoirelab-sortinghat', 'https://github.com/chaoss/grimoirelab-sigils', 'https://github.com/chaoss/grimoirelab-tutorial', 'https://github.com/chaoss/website', 'https://github.com/chaoss/whitepaper', 'https://github.com/chaoss/governance', 'https://github.com/cregit/cregit', 'https://github.com/OSSHealth/ghdata', 'https://github.com/chaoss/metrics']
+2018-05-10 14:42:33,348 - mordred.task_manager - DEBUG - Executing task <mordred.task_collection.TaskRawDataCollection object at 0x7f85072a2cc0>
+2018-05-10 14:42:33,348 - mordred.task_projects - DEBUG - List of repos for github: ['https://github.com/chaoss/prospector', 'https://github.com/chaoss/wg_diversity_inclusion', 'https://github.com/chaoss/grimoirelab', 'https://github.com/chaoss/grimoirelab-bestiary', 'https://github.com/chaoss/grimoirelab-elk', 'https://github.com/chaoss/grimoirelab-hatstall', 'https://github.com/chaoss/grimoirelab-kibiter', 'https://github.com/chaoss/grimoirelab-kidash', 'https://github.com/chaoss/grimoirelab-kingarthur', 'https://github.com/chaoss/grimoirelab-manuscripts', 'https://github.com/chaoss/grimoirelab-mordred', 'https://github.com/chaoss/grimoirelab-perceval', 'https://github.com/chaoss/grimoirelab-perceval-mozilla', 'https://github.com/chaoss/grimoirelab-perceval-opnfv', 'https://github.com/chaoss/grimoirelab-perceval-puppet', 'https://github.com/chaoss/grimoirelab-sortinghat', 'https://github.com/chaoss/grimoirelab-sigils', 'https://github.com/chaoss/grimoirelab-tutorial', 'https://github.com/chaoss/website', 'https://github.com/chaoss/whitepaper', 'https://github.com/chaoss/governance', 'https://github.com/cregit/cregit', 'https://github.com/OSSHealth/ghdata', 'https://github.com/chaoss/metrics']
+2018-05-10 14:42:33,348 - mordred.task_manager - DEBUG - Executing task <mordred.task_projects.TaskProjects object at 0x7f8506d93748>
+2018-05-10 14:42:33,349 - mordred.task_collection - DEBUG - ['https://github.com/chaoss/prospector']
+2018-05-10 14:42:33,349 - mordred.task_collection - INFO - [pipermail] raw data collection starts
+2018-05-10 14:42:33,350 - mordred.task_collection - DEBUG - ['chaoss', 'prospector', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:33,350 - mordred.task_projects - INFO - Reading projects data from  /projects.json 
+2018-05-10 14:42:33,351 - mordred.task_collection - DEBUG - [git] collection starts for https://github.com/chaoss/prospector
+2018-05-10 14:42:33,351 - mordred.task_projects - DEBUG - List of repos for pipermail: ['https://lists.linuxfoundation.org/pipermail/grimoirelab-discussions', 'https://lists.linuxfoundation.org/pipermail/chaoss-members', 'https://lists.linuxfoundation.org/pipermail/chaoss-software', 'https://lists.linuxfoundation.org/pipermail/oss-health-metrics']
+2018-05-10 14:42:33,351 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/prospector
+2018-05-10 14:42:33,353 - mordred.task_collection - DEBUG - ['https://lists.linuxfoundation.org/pipermail/grimoirelab-discussions']
+2018-05-10 14:42:33,353 - mordred.task_projects - DEBUG - Update project diff []
+2018-05-10 14:42:33,354 - mordred.task_collection - DEBUG - [pipermail] collection starts for https://lists.linuxfoundation.org/pipermail/grimoirelab-discussions
+2018-05-10 14:42:33,355 - mordred.task_manager - DEBUG - Executing task <mordred.task_identities.TaskIdentitiesLoad object at 0x7f8506dfe6d8>
+2018-05-10 14:42:34,358 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 0
+2018-05-10 14:42:34,374 - mordred.task_identities - INFO - Loading GrimoireLab identities in SortingHat
+2018-05-10 14:42:34,382 - mordred.task_identities - DEBUG - Executing ['grimoirelab2sh', '-i', '/identities.yaml', '-s', 'CHAOSS:manual', '-o', '/tmp/tmp8hciidu7']
+2018-05-10 14:42:34,859 - mordred.task_collection - DEBUG - ['chaoss', 'wg_diversity_inclusion', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:34,859 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/wg_diversity_inclusion
+2018-05-10 14:42:35,167 - mordred.task_identities - INFO - [sortinghat] Loading identities from file /tmp/tmp8hciidu7
+2018-05-10 14:42:35,516 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:35,516 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab
+2018-05-10 14:42:36,276 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-bestiary', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:36,276 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-bestiary
+2018-05-10 14:42:36,939 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-elk', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:36,940 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-elk
+2018-05-10 14:42:37,814 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-hatstall', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:37,815 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-hatstall
+2018-05-10 14:42:38,701 - mordred.task_collection - DEBUG - ['https://github.com/chaoss/wg_diversity_inclusion']
+2018-05-10 14:42:38,702 - mordred.task_collection - DEBUG - [git] collection starts for https://github.com/chaoss/wg_diversity_inclusion
+2018-05-10 14:42:39,034 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-kibiter', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:39,041 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-kibiter
+2018-05-10 14:42:39,803 - mordred.task_collection - DEBUG - ['https://lists.linuxfoundation.org/pipermail/chaoss-members']
+2018-05-10 14:42:39,803 - mordred.task_collection - DEBUG - [pipermail] collection starts for https://lists.linuxfoundation.org/pipermail/chaoss-members
+2018-05-10 14:42:40,180 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-kidash', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:40,180 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-kidash
+2018-05-10 14:42:40,877 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-kingarthur', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:40,878 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-kingarthur
+2018-05-10 14:42:41,417 - mordred.task_collection - DEBUG - ['https://github.com/chaoss/grimoirelab']
+2018-05-10 14:42:41,417 - mordred.task_collection - DEBUG - [git] collection starts for https://github.com/chaoss/grimoirelab
+2018-05-10 14:42:41,615 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-manuscripts', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:41,616 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-manuscripts
+2018-05-10 14:42:42,305 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-mordred', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:42,307 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-mordred
+2018-05-10 14:42:42,976 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-perceval', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:42,976 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-perceval
+2018-05-10 14:42:43,681 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-perceval-mozilla', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:43,682 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-perceval-mozilla
+2018-05-10 14:42:44,414 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-perceval-opnfv', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:44,414 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-perceval-opnfv
+2018-05-10 14:42:44,535 - mordred.task_collection - DEBUG - ['https://lists.linuxfoundation.org/pipermail/chaoss-software']
+2018-05-10 14:42:44,535 - mordred.task_collection - DEBUG - [pipermail] collection starts for https://lists.linuxfoundation.org/pipermail/chaoss-software
+2018-05-10 14:42:45,237 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-perceval-puppet', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:45,237 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-perceval-puppet
+2018-05-10 14:42:45,839 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-sortinghat', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:45,839 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-sortinghat
+2018-05-10 14:42:46,487 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-sigils', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:46,489 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-sigils
+2018-05-10 14:42:47,054 - mordred.task_identities - INFO - [sortinghat] End of loading identities from file /tmp/tmp8hciidu7
+2018-05-10 14:42:47,054 - mordred.task_identities - DEBUG - Doing unify after identities load
+2018-05-10 14:42:47,054 - mordred.task_identities - DEBUG - Executing ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'unify', '--fast-matching', '-m', 'email']
+2018-05-10 14:42:47,169 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-tutorial', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:47,169 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-tutorial
+2018-05-10 14:42:48,065 - mordred.task_collection - DEBUG - ['chaoss', 'website', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:48,066 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/website
+2018-05-10 14:42:48,423 - mordred.task_collection - DEBUG - ['https://lists.linuxfoundation.org/pipermail/oss-health-metrics']
+2018-05-10 14:42:48,423 - mordred.task_collection - DEBUG - [pipermail] collection starts for https://lists.linuxfoundation.org/pipermail/oss-health-metrics
+2018-05-10 14:42:49,622 - mordred.task_collection - DEBUG - ['chaoss', 'whitepaper', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:49,622 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/whitepaper
+2018-05-10 14:42:51,440 - mordred.task_collection - DEBUG - ['chaoss', 'governance', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:51,440 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/governance
+2018-05-10 14:42:52,576 - mordred.task_collection - DEBUG - ['cregit', 'cregit', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:52,576 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/cregit/cregit
+2018-05-10 14:42:53,656 - mordred.task_manager - DEBUG - Executing task <mordred.task_identities.TaskIdentitiesMerge object at 0x7f8506dfe9e8>
+2018-05-10 14:42:53,699 - mordred.task_collection - DEBUG - ['OSSHealth', 'ghdata', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:53,699 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/OSSHealth/ghdata
+2018-05-10 14:42:54,668 - mordred.task_identities - DEBUG - [unify] Enrich tasks active: 0
+2018-05-10 14:42:54,668 - mordred.task_identities - INFO - [sortinghat] Unifying identities using algorithm email
+2018-05-10 14:42:54,668 - mordred.task_identities - DEBUG - Executing ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'unify', '--fast-matching', '-m', 'email']
+2018-05-10 14:42:55,079 - mordred.task_collection - DEBUG - ['chaoss', 'metrics', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:42:55,079 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/metrics
+2018-05-10 14:42:56,614 - mordred.task_identities - INFO - [sortinghat] Executing affiliate
+2018-05-10 14:42:56,616 - mordred.task_identities - DEBUG - Executing ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'affiliate']
+2018-05-10 14:42:56,939 - mordred.task_collection - INFO - [github] Data collection finished in 00:00:23
+2018-05-10 14:42:56,942 - mordred.task_manager - DEBUG - Executing task <mordred.task_enrich.TaskEnrich object at 0x7f8506d93d68>
+2018-05-10 14:42:57,718 - mordred.task_collection - INFO - [pipermail] Data collection finished in 00:00:24
+2018-05-10 14:42:57,718 - mordred.task_manager - DEBUG - Executing task <mordred.task_enrich.TaskEnrich object at 0x7f85072a23c8>
+2018-05-10 14:42:58,015 - mordred.task_identities - INFO - [sortinghat] Executing autoprofile for sources: ['CHAOSS:manual', 'git', 'github']
+2018-05-10 14:42:58,016 - mordred.task_identities - DEBUG - Executing ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'autoprofile', 'CHAOSS:manual', 'git', 'github']
+2018-05-10 14:42:59,716 - mordred.task_identities - INFO - [sortinghat] Autogender not configured. Skipping.
+2018-05-10 14:42:59,717 - mordred.task_identities - INFO - [sortinghat] Marking bots: ['BelovedBot']
+2018-05-10 14:42:59,725 - mordred.task_identities - INFO - [sortinghat] Removing Marking bots: []
+2018-05-10 14:42:59,725 - mordred.task_manager - DEBUG - Executing task <mordred.task_identities.TaskIdentitiesExport object at 0x7f8506d5cf28>
+2018-05-10 14:42:59,726 - mordred.task_manager - DEBUG - Sleeping in Task Manager 10 s
+2018-05-10 14:43:06,953 - mordred.task_enrich - DEBUG - Number of enrichment tasks active: 1
+2018-05-10 14:43:06,954 - mordred.task_enrich - INFO - [github] enrichment starts
+2018-05-10 14:43:06,955 - mordred.task_projects - DEBUG - List of repos for github: ['https://github.com/chaoss/prospector', 'https://github.com/chaoss/wg_diversity_inclusion', 'https://github.com/chaoss/grimoirelab', 'https://github.com/chaoss/grimoirelab-bestiary', 'https://github.com/chaoss/grimoirelab-elk', 'https://github.com/chaoss/grimoirelab-hatstall', 'https://github.com/chaoss/grimoirelab-kibiter', 'https://github.com/chaoss/grimoirelab-kidash', 'https://github.com/chaoss/grimoirelab-kingarthur', 'https://github.com/chaoss/grimoirelab-manuscripts', 'https://github.com/chaoss/grimoirelab-mordred', 'https://github.com/chaoss/grimoirelab-perceval', 'https://github.com/chaoss/grimoirelab-perceval-mozilla', 'https://github.com/chaoss/grimoirelab-perceval-opnfv', 'https://github.com/chaoss/grimoirelab-perceval-puppet', 'https://github.com/chaoss/grimoirelab-sortinghat', 'https://github.com/chaoss/grimoirelab-sigils', 'https://github.com/chaoss/grimoirelab-tutorial', 'https://github.com/chaoss/website', 'https://github.com/chaoss/whitepaper', 'https://github.com/chaoss/governance', 'https://github.com/cregit/cregit', 'https://github.com/OSSHealth/ghdata', 'https://github.com/chaoss/metrics']
+2018-05-10 14:43:06,956 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/prospector
+2018-05-10 14:43:07,424 - mordred.task_enrich - DEBUG - Creating aliases after enrich
+2018-05-10 14:43:07,434 - mordred.task_panels - DEBUG - Adding alias github-raw to github_grimoirelab-raw
+2018-05-10 14:43:07,434 - mordred.task_panels - DEBUG - http://elasticsearch:9200/_aliases 
+        {
+            "actions" : [
+                {"add" : { "index" : "github_grimoirelab-raw",
+                           "alias" : "github-raw" }}
+           ]
+         }
+        
+2018-05-10 14:43:07,485 - mordred.task_panels - DEBUG - Adding alias github_issues to github_grimoirelab
+2018-05-10 14:43:07,486 - mordred.task_panels - DEBUG - http://elasticsearch:9200/_aliases 
+        {
+            "actions" : [
+                {"add" : { "index" : "github_grimoirelab",
+                           "alias" : "github_issues" }}
+           ]
+         }
+        
+2018-05-10 14:43:07,510 - mordred.task_panels - DEBUG - Adding alias github_issues_enrich to github_grimoirelab
+2018-05-10 14:43:07,510 - mordred.task_panels - DEBUG - http://elasticsearch:9200/_aliases 
+        {
+            "actions" : [
+                {"add" : { "index" : "github_grimoirelab",
+                           "alias" : "github_issues_enrich" }}
+           ]
+         }
+        
+2018-05-10 14:43:07,533 - mordred.task_panels - DEBUG - Adding alias issues_closed to github_grimoirelab
+2018-05-10 14:43:07,533 - mordred.task_panels - DEBUG - http://elasticsearch:9200/_aliases 
+        {
+            "actions" : [
+                {"add" : { "index" : "github_grimoirelab",
+                           "alias" : "issues_closed" }}
+           ]
+         }
+        
+2018-05-10 14:43:07,557 - mordred.task_panels - DEBUG - Adding alias issues_created to github_grimoirelab
+2018-05-10 14:43:07,557 - mordred.task_panels - DEBUG - http://elasticsearch:9200/_aliases 
+        {
+            "actions" : [
+                {"add" : { "index" : "github_grimoirelab",
+                           "alias" : "issues_created" }}
+           ]
+         }
+        
+2018-05-10 14:43:07,583 - mordred.task_panels - DEBUG - Adding alias issues_updated to github_grimoirelab
+2018-05-10 14:43:07,583 - mordred.task_panels - DEBUG - http://elasticsearch:9200/_aliases 
+        {
+            "actions" : [
+                {"add" : { "index" : "github_grimoirelab",
+                           "alias" : "issues_updated" }}
+           ]
+         }
+        
+2018-05-10 14:43:07,603 - mordred.task_enrich - DEBUG - Done creating aliases after enrich
+2018-05-10 14:43:07,603 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/wg_diversity_inclusion
+2018-05-10 14:43:07,726 - mordred.task_enrich - DEBUG - Number of enrichment tasks active: 2
+2018-05-10 14:43:07,727 - mordred.task_enrich - INFO - [pipermail] enrichment starts
+2018-05-10 14:43:07,728 - mordred.task_projects - DEBUG - List of repos for pipermail: ['https://lists.linuxfoundation.org/pipermail/grimoirelab-discussions', 'https://lists.linuxfoundation.org/pipermail/chaoss-members', 'https://lists.linuxfoundation.org/pipermail/chaoss-software', 'https://lists.linuxfoundation.org/pipermail/oss-health-metrics']
+2018-05-10 14:43:07,728 - mordred.task_enrich - DEBUG - [pipermail] enrichment starts for https://lists.linuxfoundation.org/pipermail/grimoirelab-discussions
+2018-05-10 14:43:07,753 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab
+2018-05-10 14:43:08,208 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-bestiary
+2018-05-10 14:43:08,490 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-elk
+2018-05-10 14:43:08,733 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-hatstall
+2018-05-10 14:43:08,989 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-kibiter
+2018-05-10 14:43:09,326 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-kidash
+2018-05-10 14:43:09,871 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-kingarthur
+2018-05-10 14:43:10,064 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-manuscripts
+2018-05-10 14:43:10,257 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-mordred
+2018-05-10 14:43:10,480 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-perceval
+2018-05-10 14:43:10,634 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-perceval-mozilla
+2018-05-10 14:43:10,737 - mordred.task_manager - DEBUG - Executing task <mordred.task_projects.TaskProjects object at 0x7f8506d93748>
+2018-05-10 14:43:10,737 - mordred.task_projects - INFO - Reading projects data from  /projects.json 
+2018-05-10 14:43:10,738 - mordred.task_projects - DEBUG - Update project diff []
+2018-05-10 14:43:10,738 - mordred.task_manager - DEBUG - Executing task <mordred.task_identities.TaskIdentitiesLoad object at 0x7f8506dfe6d8>
+2018-05-10 14:43:10,778 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-perceval-opnfv
+2018-05-10 14:43:10,959 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-perceval-puppet
+2018-05-10 14:43:11,193 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-sortinghat
+2018-05-10 14:43:11,429 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-sigils
+2018-05-10 14:43:11,612 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/grimoirelab-tutorial
+2018-05-10 14:43:11,739 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 2
+2018-05-10 14:43:11,816 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/website
+2018-05-10 14:43:11,950 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/whitepaper
+2018-05-10 14:43:12,138 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/governance
+2018-05-10 14:43:12,467 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/cregit/cregit
+2018-05-10 14:43:12,749 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 2
+2018-05-10 14:43:12,783 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/OSSHealth/ghdata
+2018-05-10 14:43:13,142 - mordred.task_enrich - DEBUG - [github] enrichment starts for https://github.com/chaoss/metrics
+2018-05-10 14:43:13,510 - mordred.task_enrich - INFO - [github] enrichment finished in 00:00:06
+2018-05-10 14:43:13,511 - mordred.task_enrich - DEBUG - Doing autorefresh for github
+2018-05-10 14:43:13,687 - mordred.task_enrich - INFO - Refreshing identities fields in enriched index github
+2018-05-10 14:43:13,688 - mordred.task_enrich - DEBUG - Getting last modified identities from SH since 2018-05-10 14:42:32.344213 for github
+2018-05-10 14:43:13,772 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 2
+2018-05-10 14:43:13,928 - mordred.task_enrich - DEBUG - Refreshing for github uuids ['04af5c9a0046a2fddf771f73fa501d58c89fea8a', '04c2e64fd3dd7120b7b04b45afd2b1be990e2f82', '081bbdada20a17b4130636e0c42204b9e302fd02', '08d9f0f5dc30d2287bf26e144b60240a9dd21936', '0d4459bfd4215f297421b217034e751e963cb1c4', '0dc89ae046ea9b0a4d22b457f7d02ba0ad38f673', '1688e8471af3dac6fce21365bcde7afc05ef4ba5', '1807f9fdff6405664520ee898fd1f54847e5ab12', '1dd5b242d9822a54dcf0dcd257ee091c01ab7ed7', '267a6c33a0078f1fdc2c57c1c2025f04a04c9536', '271f59f5d1d59d1c5a8324ef9d031b52e03cd394', '307a515ed0811434b3ba1f5117c0cf8d82f91520', '3167c4b05d13bfb56777d0032a4584f489f3e18b', '356ec371d591203edc6f98c53812281cc8add03a', '35d5b8086aa70954badbaef642d525db82c1a028', '38cdfa133e1a3942402beaaf10fb89e209171c47', '3db40f28196c2c256a8f569752ecf431127e2448', '3edb7398658c2ea15bb7a0fb1b165ede08173dd0', '4d6a127284f97ffb3e86af810af2eaf5acb27f6e', '4ef178210ab29960f74778f8404a10f03a173e0a', '5ac827951fb83614dd926fd4a48d5642578c698f', '5dc2b1f33bbd2cc34ce35f593b0edb9e3c6ad902', '5de71cb1eb0bdbfca7c458a0f2501d011af93ae0', '616e8c86b3ec1c11c29aaaaee5af290e26e2e089', '62b034ba79b4eb3c7a8ea980f9ed745e55184778', '630c40c24fe8c603c6f7003eaeed6d058a2d9994', '6937864fa344d5557d257bdc4edca088dcf409ba', '694bc434c4269e212c43a78782ccdd650a0f5b98', '6ac1c0968dd0b163f1c84110a1eec841e19af575', '6fb979f7ee557d5b56e35f2b9c65b0b01ce2a87e', '707dbdb70d71ce0499c2ca3ccc3970ac3df32f46', '7643cc81bf8d001a6f661f42a3284103acf43151', '768cb4d3438c52e193780ef7b13aefcdfb6275b1', '7ef794777a3aca589b36bb8dd0738169564ac288', '878b41ab230a44658c94d054622effadaea8632f', '8ab10d6173e6ca8ff0e03f8bf1dd70c25257ba43', '96d91f2548232a7ba766348a0bd09a0648c97dbd', '99d8b9b67fbb5f84c0c8540e879a64a1342c7214', '9bbbf6dde9127b2b9e90713e73ed633df8ca77cb', '9c343bb0c3d0fce13e203e6584e2535fcaddea19', 'a2a0f089a7f6d7336eadd52e50a3da2fcb9ce7b0', 'a2b7ab20038b1e7adde130b041f854d740223534', 'a3e575c8d9f5dfee6715857540fc3cb99e8acdac', 'a9838848423ebc3cc369879617788c8faa035866', 'aa75245d461fd25114513d5811b749067c11f0e0', 'b38b9a1967eb6b70d5a86d051707e8059bb6ac1f', 'babf3ef7f9ca05fe327ea0f20999f3e9980d1370', 'bc9d98868df2ead377b57d4f5bac3595f058772c', 'bd6d7f1d1b99c0a2de45782eb535fd9fbdeb604e', 'bfa582cb93e7939ea633146e88b6eeb389e539b2', 'c6a83505d16ee6ccf173ea09df50b9db135d8fd6', 'ce4bf6ec59ac23c6c5e6475f979f4f29a782f3e5', 'cfdd5f1ff422b07a6b622e8d2d678c0df1ed0657', 'd4e37bca06ad320c43772cfda6d026753aefaeaf', 'd5d71179d2842b78c48a28b207bd9405bd15c192', 'd67ff082753ddd800fe31abed52887146b429ab2', 'df5366a2b8a3e9241b40466791ae46309620d927', 'e0b7c4e6f31a0621325a238dda6925adf108a454', 'e1c8d28c66ef09641453cd766a00da63b1c959d0', 'e737b1f9540baacbfa7714fe46c6713559a57a2f', 'ec2cf434ec1163ba6b5f59c67ddb0e4c3bbe422d', 'ec7a2f46547dec07e780f4d12801ee05326594ee', 'f7c97b9308d40bddb87b10cca418de8e06f8c100', 'f8bc8446829c21937f1abf4e5d799ab21e1b3568', 'fd75f5e64a0cd023f220ee5330ef3f387ab293be', 'fffb5ae63f18a25c1cf628a628be9a2f72c5f8ac', 'fffe1c0ad191f97f88d6f55a4ecdb984313486a5']
+2018-05-10 14:43:14,006 - mordred.task_enrich - DEBUG - Refreshing for github ids ['028cd730b218859b9dfe3b4a4485c578143c3562', '041fdc4acffc6f548b622a34c6b525e281176b3a', '04af5c9a0046a2fddf771f73fa501d58c89fea8a', '04c2e64fd3dd7120b7b04b45afd2b1be990e2f82', '074c16dd03d56a9c0092a15415a2fd2d92f60088', '081bbdada20a17b4130636e0c42204b9e302fd02', '08d9f0f5dc30d2287bf26e144b60240a9dd21936', '098cd10320d8804149598cb1e7961759e7616645', '0bb999341ca85befcbc834e6632589f294e73023', '0d4459bfd4215f297421b217034e751e963cb1c4', '0dc89ae046ea9b0a4d22b457f7d02ba0ad38f673', '135a7e6ffde0273aa1923e1f2f91b246517410c2', '13e257c22a0645519e6553e327658f89cd1cbdca', '1688e8471af3dac6fce21365bcde7afc05ef4ba5', '1807f9fdff6405664520ee898fd1f54847e5ab12', '19726cc581975e42800bb003a75014118816a1d2', '1977522cbf171fb40f64e286f5e47b5873c067e6', '1c2a999b73808197dd879a0810d428cedec430e7', '1dd5b242d9822a54dcf0dcd257ee091c01ab7ed7', '1eb85d0965755b211a36db537d169043e53b528f', '1f4e679137a2d68a9909e55fdd4a22c6055894d6', '244160f57a13d41fd2322ec71c3d80561f127d5d', '267a6c33a0078f1fdc2c57c1c2025f04a04c9536', '268a573689d1f7377a11b3b736623ce2902c0791', '271f59f5d1d59d1c5a8324ef9d031b52e03cd394', '2f7521a40985c82053f01beed88d73996b62baed', '307a515ed0811434b3ba1f5117c0cf8d82f91520', '30b871aa3f7e6e4e20c75a4f4283fe15f6417632', '30baa1a641ecb27e30265ff25594d1e733c0dff9', '3167c4b05d13bfb56777d0032a4584f489f3e18b', '3205fdab7b15d216343f90ce1f9d46f41eb66893', '3490c1ce977c205411c6cfba3783930aabc1ceba', '34cb57c1278c7ae0a211568b809bd4cfac1bc07e', '356ec371d591203edc6f98c53812281cc8add03a', '35d5b8086aa70954badbaef642d525db82c1a028', '38cdfa133e1a3942402beaaf10fb89e209171c47', '3ab463cffa80695eb90af586a4bc0eed11690125', '3af0687b16f726de8a8063799a459ba4305d86e5', '3bb039ea7b8b991a7edcee1448d6237b0fd11114', '3db40f28196c2c256a8f569752ecf431127e2448', '3dd8e818530db41f139591a38013d39f236c4b12', '3edb7398658c2ea15bb7a0fb1b165ede08173dd0', '46733af58b624bda14b209af557aca27d190db18', '47862463a3383173a3f3b4940d58ee6cd2de48fe', '479f34d4eadae1e11cb8b8397951326e0594ef6a', '4c8efbdacca82d85f55181802c0ec182892e78c2', '4d6a127284f97ffb3e86af810af2eaf5acb27f6e', '4ef178210ab29960f74778f8404a10f03a173e0a', '4fdd552ed0e9967a4bdd530eb9d11552fd685aed', '51bf8b3f8781609d591d2d3c0fbcb57a93d142f1', '52570741b3410e0eb0c9a7ae35a82b70862d6047', '52c28939a6c0e0d62183342dc511abaf3fc28667', '5ac827951fb83614dd926fd4a48d5642578c698f', '5dc2b1f33bbd2cc34ce35f593b0edb9e3c6ad902', '5de71cb1eb0bdbfca7c458a0f2501d011af93ae0', '616e8c86b3ec1c11c29aaaaee5af290e26e2e089', '62b034ba79b4eb3c7a8ea980f9ed745e55184778', '630c40c24fe8c603c6f7003eaeed6d058a2d9994', '6836b3dd9d8e255b9334137fdea7875cb2bf8c54', '6937864fa344d5557d257bdc4edca088dcf409ba', '694bc434c4269e212c43a78782ccdd650a0f5b98', '6ac1c0968dd0b163f1c84110a1eec841e19af575', '6b47a3b229a0a7dc9f44c59edb4245e1021187e0', '6e3decd6b85db1d7131782c082cf5f7a3150d5bc', '6f29174b25521cf9477a4431b24c0078f52fb001', '6fb979f7ee557d5b56e35f2b9c65b0b01ce2a87e', '707dbdb70d71ce0499c2ca3ccc3970ac3df32f46', '7643cc81bf8d001a6f661f42a3284103acf43151', '768cb4d3438c52e193780ef7b13aefcdfb6275b1', '76b5b275a62576ca956aeb8faf42d04c267b61f3', '7751da6044959e648d6b93c1d8db381cbe354549', '7921cc3733edac801922e8acfecadffbc9867579', '7ef794777a3aca589b36bb8dd0738169564ac288', '7ffe7118d13dc46f199d90b8b8bdb8b02871e8fd', '8206c1e328ef32cbafe93897ccd5377781f1f88d', '8492c41eb574c818f740ac3a6a6d0ffca5973470', '8749ba960121098a82dc42e57730a9d830ea9bcf', '878b41ab230a44658c94d054622effadaea8632f', '8ab10d6173e6ca8ff0e03f8bf1dd70c25257ba43', '8d871343245af4b9b6c61e539217cd7f1845fa0b', '8da21d5bf8084323a877d5c8b6402c4d84fbdea5', '94297454d4c47baf01886a50eba5f705d4f42f8f', '96d91f2548232a7ba766348a0bd09a0648c97dbd', '985e6a49729ade5481652fdc51cc178a20540d04', '99d51cb03c65422add0efd84828289aff2bfbe6e', '99d8b9b67fbb5f84c0c8540e879a64a1342c7214', '9bbbf6dde9127b2b9e90713e73ed633df8ca77cb', '9c343bb0c3d0fce13e203e6584e2535fcaddea19', '9e5db748aed0a2984ba7138555e4186145e9d837', '9f65dc4136f997fc70d5a5890517da7a96dd20e9', 'a17913f8b0add027360dfd0e76a15e85a79d499b', 'a2a0f089a7f6d7336eadd52e50a3da2fcb9ce7b0', 'a2b7ab20038b1e7adde130b041f854d740223534', 'a3e575c8d9f5dfee6715857540fc3cb99e8acdac', 'a94c023fed8d9c9a7ad563333c976d91588a38ce', 'a9838848423ebc3cc369879617788c8faa035866', 'aa75245d461fd25114513d5811b749067c11f0e0', 'ae07b3ab47baaf84a2b3e31722359855c778112c', 'aea30c69a9cbf11b5bd0bb51e7f447baeff2744c', 'b38681e802d2d431cdc251e8f4fa8026cb10f54d', 'b38b9a1967eb6b70d5a86d051707e8059bb6ac1f', 'b741a4144260787e41d3e65adf97d64d4b57a729', 'b851da430189e88d6410e16cd84d72998b29c44e', 'b86d93f52e333ce4e9dea449ea68d8060d2e19ec', 'babf3ef7f9ca05fe327ea0f20999f3e9980d1370', 'bc08af2e1acf5ea50e63115545b91a7df01b4f78', 'bc9d98868df2ead377b57d4f5bac3595f058772c', 'bd02ff7597bb1e40d1f4fd0a15b06becd732b296', 'bd6d7f1d1b99c0a2de45782eb535fd9fbdeb604e', 'bdee01a8ee2fa000b8229697da0cd8518c33d46d', 'bfa582cb93e7939ea633146e88b6eeb389e539b2', 'c1a47888a9c0bd6bc0d0c6210dcc21e5e45b8265', 'c2add6c764921482af07d1a0564bb62bae39c27f', 'c4d85e3472c9c1fc6e86d034f03dd84ab98a8bdc', 'c6a83505d16ee6ccf173ea09df50b9db135d8fd6', 'cad3fbe93485c52d78d15737a2943441ade76bfb', 'ce4bf6ec59ac23c6c5e6475f979f4f29a782f3e5', 'cfbab01e14f7bf76615e4724ac82528240bf4291', 'cfdd5f1ff422b07a6b622e8d2d678c0df1ed0657', 'd28d95d0c812d0d994629832255a491901d14e61', 'd307f487194e216488b29eff7779a97ed190893a', 'd3684a6cf21398d9cb3a3beecefbf921ed978aea', 'd4e37bca06ad320c43772cfda6d026753aefaeaf', 'd5d71179d2842b78c48a28b207bd9405bd15c192', 'd67ff082753ddd800fe31abed52887146b429ab2', 'd7f4f17212de7e11a268fd1f5340879758a3ccd3', 'd8c616e9d03da83df651431ec9f1f033a7406265', 'd9b3b38b815ccbefbc0a2c714859e4cfcfad622b', 'da7f1c9b3788adb038edc44728c04979dc923076', 'dcbdbbbd050a2526776788c33f24c1c0fc0b807a', 'dd029311210ffc04bfa39115f3dde15838bfa182', 'de72be1876a610c174ae6214ca7ae977320ad9db', 'df5366a2b8a3e9241b40466791ae46309620d927', 'e0b7c4e6f31a0621325a238dda6925adf108a454', 'e10431c539f06576de765fefd1924181b393c18d', 'e1c8d28c66ef09641453cd766a00da63b1c959d0', 'e3a6832dddc15d7c3cc23591a7ef24edb3c44f1b', 'e4b0ccf4efcd968f81ee049f98b7e01f1b5f6cc7', 'e602e613c36044f450c3c95dab0da9f662015119', 'e737b1f9540baacbfa7714fe46c6713559a57a2f', 'e7df1c49c3f26980841e880dc9d354268b0dda63', 'e9c08eccbdf9713da686e9265160568e6576e6f9', 'ec2cf434ec1163ba6b5f59c67ddb0e4c3bbe422d', 'ec7a2f46547dec07e780f4d12801ee05326594ee', 'ed5267e3360c7818975a2605907803bdab1ba305', 'f12c38b55065da7d6ab9a692811bfe928a2b534d', 'f47da1e0d6930efd76d99422907af7f66800459e', 'f7c97b9308d40bddb87b10cca418de8e06f8c100', 'f8bc8446829c21937f1abf4e5d799ab21e1b3568', 'f9b83423a284d3553463388f8431290e7effd0c8', 'fa52eafb019ac556f20a38adb50c3641c899cf2f', 'fc3b399104628505edd2b1cc7b8519f856aaebfd', 'fd75f5e64a0cd023f220ee5330ef3f387ab293be', 'fffb5ae63f18a25c1cf628a628be9a2f72c5f8ac', 'fffe1c0ad191f97f88d6f55a4ecdb984313486a5']
+2018-05-10 14:43:14,040 - mordred.task_enrich - DEBUG - No studies for github
+2018-05-10 14:43:14,041 - mordred.task_manager - DEBUG - Executing task <mordred.task_panels.TaskPanelsAliases object at 0x7f8506dfeeb8>
+2018-05-10 14:43:14,108 - mordred.task_manager - DEBUG - Sleeping in Task Manager 50 s
+2018-05-10 14:43:14,773 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:14,889 - mordred.task_enrich - DEBUG - Creating aliases after enrich
+2018-05-10 14:43:14,896 - mordred.task_panels - DEBUG - Adding alias pipermail-raw to mail_grimoirelab-raw
+2018-05-10 14:43:14,897 - mordred.task_panels - DEBUG - http://elasticsearch:9200/_aliases 
+        {
+            "actions" : [
+                {"add" : { "index" : "mail_grimoirelab-raw",
+                           "alias" : "pipermail-raw" }}
+           ]
+         }
+        
+2018-05-10 14:43:14,919 - mordred.task_panels - DEBUG - Adding alias mbox to mail_grimoirelab
+2018-05-10 14:43:14,919 - mordred.task_panels - DEBUG - http://elasticsearch:9200/_aliases 
+        {
+            "actions" : [
+                {"add" : { "index" : "mail_grimoirelab",
+                           "alias" : "mbox" }}
+           ]
+         }
+        
+2018-05-10 14:43:14,945 - mordred.task_panels - DEBUG - Adding alias mbox_enrich to mail_grimoirelab
+2018-05-10 14:43:14,945 - mordred.task_panels - DEBUG - http://elasticsearch:9200/_aliases 
+        {
+            "actions" : [
+                {"add" : { "index" : "mail_grimoirelab",
+                           "alias" : "mbox_enrich" }}
+           ]
+         }
+        
+2018-05-10 14:43:14,966 - mordred.task_enrich - DEBUG - Done creating aliases after enrich
+2018-05-10 14:43:14,966 - mordred.task_enrich - DEBUG - [pipermail] enrichment starts for https://lists.linuxfoundation.org/pipermail/chaoss-members
+2018-05-10 14:43:15,775 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:16,777 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:17,783 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:18,615 - mordred.task_enrich - DEBUG - [pipermail] enrichment starts for https://lists.linuxfoundation.org/pipermail/chaoss-software
+2018-05-10 14:43:18,786 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:19,788 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:20,790 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:21,796 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:22,802 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:23,565 - mordred.task_enrich - DEBUG - [pipermail] enrichment starts for https://lists.linuxfoundation.org/pipermail/oss-health-metrics
+2018-05-10 14:43:23,804 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:24,805 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:25,809 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:26,810 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:27,812 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:28,813 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:29,815 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:30,818 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:31,818 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:32,823 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:33,827 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:34,834 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:35,836 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:36,843 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:37,438 - mordred.task_enrich - INFO - [pipermail] enrichment finished in 00:00:29
+2018-05-10 14:43:37,438 - mordred.task_enrich - DEBUG - Doing autorefresh for pipermail
+2018-05-10 14:43:37,497 - mordred.task_enrich - INFO - Refreshing identities fields in enriched index pipermail
+2018-05-10 14:43:37,498 - mordred.task_enrich - DEBUG - Getting last modified identities from SH since 2018-05-10 14:42:32.346213 for pipermail
+2018-05-10 14:43:37,746 - mordred.task_enrich - DEBUG - Refreshing for pipermail uuids ['01e4e66f80abb1fc407f3e435893eb0995f55ade', '048cc151cfa2909aaa531bf580dc913eb1a2e45d', '04af5c9a0046a2fddf771f73fa501d58c89fea8a', '04c2e64fd3dd7120b7b04b45afd2b1be990e2f82', '081bbdada20a17b4130636e0c42204b9e302fd02', '08c5bbe1f5b5188fd5d3d0415857c77414b52ccd', '08d9f0f5dc30d2287bf26e144b60240a9dd21936', '0bef3e9eece77a8ba3cc1e24b38318a36d34bce3', '0d4459bfd4215f297421b217034e751e963cb1c4', '0dc89ae046ea9b0a4d22b457f7d02ba0ad38f673', '0fd62acd197bdd6634761059daae62f1fc433b3f', '110c5f3960c2c20a403514ce7f8571719230e7ec', '15109c985799cba6227d858cb5cf272fbfe7d13a', '1688e8471af3dac6fce21365bcde7afc05ef4ba5', '1807f9fdff6405664520ee898fd1f54847e5ab12', '199e11ecc20ceb915b3094a62039516c1b397251', '1bf45308bef5ff0ace79e26a0b4981e4b9cc74f4', '1c6d3f862c4e8132adc4970b4f5b29897f33c1c3', '1ca6abd18ac3a3ae0280881b47e1fcd7e0a3e493', '1dd5b242d9822a54dcf0dcd257ee091c01ab7ed7', '1fe4e43f53b26ae2d8f3c0492dfc7c0e998ae098', '264a13eb31288115f458458157daf345ef967a30', '267a6c33a0078f1fdc2c57c1c2025f04a04c9536', '271f59f5d1d59d1c5a8324ef9d031b52e03cd394', '29adb174c473a0491559890ee616a33fbb57421a', '2ca37addfd43be9280833af38c7a39f3d613d6b9', '2d00f61f6a25a80d51f50c4e25a990fe25f30c73', '2e6af9facab61b4d3c923668c03a2b4158073856', '2fbe33196d8ac757106a77d1039ed7d5230d824b', '3011cb9421be276b8d94b91c7636dadd65bfd817', '301997c5b20290f5ab3b426944f96fd4afa9b0de', '307a515ed0811434b3ba1f5117c0cf8d82f91520', '30dc3adc02c9e60fa25cd717fe15f1bc3b7fac89', '311f502946555b7b1b5aa7708dc2c836f0f73ac9', '3167c4b05d13bfb56777d0032a4584f489f3e18b', '31cd874a0919911aa6ac15c37cc013f9dbc5a388', '3226b774822183bc5cfc29e41b1888bab19671f2', '32bb8335f6ad9816faf63bae2ca6057bec83a063', '356ec371d591203edc6f98c53812281cc8add03a', '35d5b8086aa70954badbaef642d525db82c1a028', '362cd7f59f05f71cb28d554f52da8964e120edc4', '36fd2962a0f284024daa20d52c4b598397b86c25', '38cdfa133e1a3942402beaaf10fb89e209171c47', '3db40f28196c2c256a8f569752ecf431127e2448', '3edb7398658c2ea15bb7a0fb1b165ede08173dd0', '3f800f689d45228290321510e72296073eac36ba', '4002ecdef9a86d6a0e59e4a6946f03246a6716a1', '403d526fcf31826a929dcdcab17ee86e3506c202', '40b9671699743f175b2bc874ed74ad182bb6ac05', '45368ba004e47bd2e3e899f2f181205e3452aab1', '4628e0f7968c066e62ee36d593884ff7701dfaae', '4b4b60d997fd759ac6bbdaf6b9c689beb9e9ce64', '4b94ef8bbd4be606b9c520234d85fe55f4976d48', '4d6a127284f97ffb3e86af810af2eaf5acb27f6e', '4ef178210ab29960f74778f8404a10f03a173e0a', '50e461cd22a9c0a2816e2949845ebe786d4fbf08', '549e0012ba5c127ef2c5dee6906df22c7d441cd6', '5ac827951fb83614dd926fd4a48d5642578c698f', '5caaf4615f625508f741aa8c9a9ffc45f1c01b26', '5dc2b1f33bbd2cc34ce35f593b0edb9e3c6ad902', '5de71cb1eb0bdbfca7c458a0f2501d011af93ae0', '616e8c86b3ec1c11c29aaaaee5af290e26e2e089', '62b034ba79b4eb3c7a8ea980f9ed745e55184778', '630c40c24fe8c603c6f7003eaeed6d058a2d9994', '65874be59c17cfc9273373f7e790a89899ffbb57', '679cec709ebe5d36999c6393b490daff7e5c3c3c', '6937864fa344d5557d257bdc4edca088dcf409ba', '694bc434c4269e212c43a78782ccdd650a0f5b98', '6ac1c0968dd0b163f1c84110a1eec841e19af575', '6ca6f7f01cee58ef2dc9207cd4a6a606dde784f2', '6d604610d948e5820321e8a51ba815d16e142d5a', '6de0a876e5bebbdb3e3ca42f04c64d75f8c33e0c', '6fb979f7ee557d5b56e35f2b9c65b0b01ce2a87e', '70067ada58d41757474d5f1b41b316d9dcb1faf6', '7030fcf20c165f1bd2c04407c5c279c442085500', '707dbdb70d71ce0499c2ca3ccc3970ac3df32f46', '733f394bcec96da4f702f1168c917c264417bbca', '7643cc81bf8d001a6f661f42a3284103acf43151', '768cb4d3438c52e193780ef7b13aefcdfb6275b1', '76d8068fbd474c7a22201e35db6995d889251805', '7a3b24bfe2cd7b512da36af5c911d5f4739e955e', '7c085595ca5771a15f0c4aab72dd4312137da6e5', '7ef794777a3aca589b36bb8dd0738169564ac288', '80f2d8d5d654eaab4e5fdefb884885717625335e', '819aad534ee6ec3b28b01edf5246ab11fb74e6e7', '81a6db3c566a756d9b68a7f0290aa3bf0ccdeb1d', '856e1331ecb21a88d5421b3089f802217d769158', '8700a118ec607159b965382f56770e28f57d8763', '878b41ab230a44658c94d054622effadaea8632f', '8911d3365bda7f38090b0457954ce9db6cef1b28', '8ab10d6173e6ca8ff0e03f8bf1dd70c25257ba43', '96d91f2548232a7ba766348a0bd09a0648c97dbd', '97a139eab3af01e14c555cc77c25e2de454f4104', '9924015de897034c5dfa2504229a9b0915ac524f', '99d8b9b67fbb5f84c0c8540e879a64a1342c7214', '9a0474d50ac63a8d1b9560b18659e78f45dc2da2', '9abb48f7938f534b8d3da5ac3549b9768c09d871', '9bbbf6dde9127b2b9e90713e73ed633df8ca77cb', '9c343bb0c3d0fce13e203e6584e2535fcaddea19', 'a290ab084700ab50a3e9732d3432c9fbe124d64f', 'a2a0f089a7f6d7336eadd52e50a3da2fcb9ce7b0', 'a2b7ab20038b1e7adde130b041f854d740223534', 'a3e575c8d9f5dfee6715857540fc3cb99e8acdac', 'a43b95569ecee52117a699eea6fabc84ff3b353c', 'a4b4c8f788db27c3132a96eb8d06c679b715b3f9', 'a6a9862d68a226b7bc3dc6af71b40288c0194dc3', 'a9838848423ebc3cc369879617788c8faa035866', 'aa75245d461fd25114513d5811b749067c11f0e0', 'ac30174dcea7deb0759eba3f37c28f2c9155da5a', 'ac5741b804e6acac18935d8ac0f9b12fea227e09', 'b324e2d65ef4a5f7b0fa45ef07e045f82fc75d32', 'b38b9a1967eb6b70d5a86d051707e8059bb6ac1f', 'b6c4404d4482ab7ac27d955df817f3ef9b02c274', 'b70dfcadf9c1b8388a16572a4f8923d3b144f55b', 'b8915b5b3b457649ab2616e49637110d2456d0cc', 'ba4f1d3edc5ecca44a5badb3b50150bca126c709', 'babf3ef7f9ca05fe327ea0f20999f3e9980d1370', 'bb539c5aa1d3af4bad1439788c16c6d01f50c55b', 'bc9d98868df2ead377b57d4f5bac3595f058772c', 'bd6d7f1d1b99c0a2de45782eb535fd9fbdeb604e', 'bd6e9cb2afcaefe22575af868e95a1c8ab729015', 'bfa582cb93e7939ea633146e88b6eeb389e539b2', 'c1340a2ddc6448d09feb1e9d38c032d0d2a088c7', 'c30346274b275290ac1d9b1b8ab97d396fd8bc56', 'c6a83505d16ee6ccf173ea09df50b9db135d8fd6', 'ca62fd0fee2be4782bf6382d4b3514096934f64e', 'ce4bf6ec59ac23c6c5e6475f979f4f29a782f3e5', 'ce77e0fb73de63cf1b27406a276e7a6669458d4d', 'cfdd5f1ff422b07a6b622e8d2d678c0df1ed0657', 'd0a37aa02961c6e6286707be43d1ed5e215fd7fe', 'd1ddc0c8741528df760f6ecb18d389be5cab4ead', 'd4e37bca06ad320c43772cfda6d026753aefaeaf', 'd5d71179d2842b78c48a28b207bd9405bd15c192', 'd67ff082753ddd800fe31abed52887146b429ab2', 'd6c9688bc768c0c9ea159f625ddd45f463829107', 'dc176c0b250e4ab8be69624ac40ee977abbc03c3', 'df5366a2b8a3e9241b40466791ae46309620d927', 'dff5a45c180a423984fe845dbe39c6d6647c3fe8', 'e03b50b9e47ea026a78d07ea3b969cb119fb34f9', 'e0b7c4e6f31a0621325a238dda6925adf108a454', 'e18783d9acf7b7ebe6385e3c5a3e143fdb782793', 'e1c8d28c66ef09641453cd766a00da63b1c959d0', 'e3494e27e37d6a73c0304dc635c2cd1e44dd6996', 'e4873f05c9538d7580d2cefd9e9bd8cc86bf542a', 'e54b100d57d4c233332a73d34683f24ab14de9cd', 'e569364bee22885c15cc043b5aa2e1d5d200d779', 'e737b1f9540baacbfa7714fe46c6713559a57a2f', 'ec2cf434ec1163ba6b5f59c67ddb0e4c3bbe422d', 'ec7a2f46547dec07e780f4d12801ee05326594ee', 'efd5acf7b6eacf47c8b5f7609b7cd70ce2936c73', 'f7c97b9308d40bddb87b10cca418de8e06f8c100', 'f8bc8446829c21937f1abf4e5d799ab21e1b3568', 'f9579f28c6b6616cef5df4c512ece8d8d1c010dc', 'fabd70dace8c17dbab26a3e58c1a599149caa981', 'fd75f5e64a0cd023f220ee5330ef3f387ab293be', 'fffb5ae63f18a25c1cf628a628be9a2f72c5f8ac', 'fffe1c0ad191f97f88d6f55a4ecdb984313486a5']
+2018-05-10 14:43:37,844 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:38,846 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:39,854 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:40,857 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:41,858 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:42,861 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:43,638 - mordred.task_enrich - DEBUG - Refreshing for pipermail ids ['01e4e66f80abb1fc407f3e435893eb0995f55ade', '028cd730b218859b9dfe3b4a4485c578143c3562', '041fdc4acffc6f548b622a34c6b525e281176b3a', '048cc151cfa2909aaa531bf580dc913eb1a2e45d', '04af5c9a0046a2fddf771f73fa501d58c89fea8a', '04c2e64fd3dd7120b7b04b45afd2b1be990e2f82', '074c16dd03d56a9c0092a15415a2fd2d92f60088', '081bbdada20a17b4130636e0c42204b9e302fd02', '08c5bbe1f5b5188fd5d3d0415857c77414b52ccd', '08d9f0f5dc30d2287bf26e144b60240a9dd21936', '098cd10320d8804149598cb1e7961759e7616645', '0bb999341ca85befcbc834e6632589f294e73023', '0bef3e9eece77a8ba3cc1e24b38318a36d34bce3', '0d4459bfd4215f297421b217034e751e963cb1c4', '0dc89ae046ea9b0a4d22b457f7d02ba0ad38f673', '0fd62acd197bdd6634761059daae62f1fc433b3f', '110c5f3960c2c20a403514ce7f8571719230e7ec', '135a7e6ffde0273aa1923e1f2f91b246517410c2', '13e257c22a0645519e6553e327658f89cd1cbdca', '15109c985799cba6227d858cb5cf272fbfe7d13a', '1688e8471af3dac6fce21365bcde7afc05ef4ba5', '1807f9fdff6405664520ee898fd1f54847e5ab12', '19726cc581975e42800bb003a75014118816a1d2', '1977522cbf171fb40f64e286f5e47b5873c067e6', '199e11ecc20ceb915b3094a62039516c1b397251', '1bf45308bef5ff0ace79e26a0b4981e4b9cc74f4', '1c2a999b73808197dd879a0810d428cedec430e7', '1c6d3f862c4e8132adc4970b4f5b29897f33c1c3', '1ca6abd18ac3a3ae0280881b47e1fcd7e0a3e493', '1dd5b242d9822a54dcf0dcd257ee091c01ab7ed7', '1eb85d0965755b211a36db537d169043e53b528f', '1f4e679137a2d68a9909e55fdd4a22c6055894d6', '1fe4e43f53b26ae2d8f3c0492dfc7c0e998ae098', '244160f57a13d41fd2322ec71c3d80561f127d5d', '264a13eb31288115f458458157daf345ef967a30', '267a6c33a0078f1fdc2c57c1c2025f04a04c9536', '268a573689d1f7377a11b3b736623ce2902c0791', '271f59f5d1d59d1c5a8324ef9d031b52e03cd394', '29adb174c473a0491559890ee616a33fbb57421a', '2ca37addfd43be9280833af38c7a39f3d613d6b9', '2d00f61f6a25a80d51f50c4e25a990fe25f30c73', '2e6af9facab61b4d3c923668c03a2b4158073856', '2f7521a40985c82053f01beed88d73996b62baed', '2fbe33196d8ac757106a77d1039ed7d5230d824b', '3011cb9421be276b8d94b91c7636dadd65bfd817', '301997c5b20290f5ab3b426944f96fd4afa9b0de', '307a515ed0811434b3ba1f5117c0cf8d82f91520', '30b871aa3f7e6e4e20c75a4f4283fe15f6417632', '30baa1a641ecb27e30265ff25594d1e733c0dff9', '30dc3adc02c9e60fa25cd717fe15f1bc3b7fac89', '311f502946555b7b1b5aa7708dc2c836f0f73ac9', '3167c4b05d13bfb56777d0032a4584f489f3e18b', '31cd874a0919911aa6ac15c37cc013f9dbc5a388', '3205fdab7b15d216343f90ce1f9d46f41eb66893', '3226b774822183bc5cfc29e41b1888bab19671f2', '32bb8335f6ad9816faf63bae2ca6057bec83a063', '3490c1ce977c205411c6cfba3783930aabc1ceba', '34cb57c1278c7ae0a211568b809bd4cfac1bc07e', '356ec371d591203edc6f98c53812281cc8add03a', '35d5b8086aa70954badbaef642d525db82c1a028', '362cd7f59f05f71cb28d554f52da8964e120edc4', '36fd2962a0f284024daa20d52c4b598397b86c25', '38cdfa133e1a3942402beaaf10fb89e209171c47', '3ab463cffa80695eb90af586a4bc0eed11690125', '3af0687b16f726de8a8063799a459ba4305d86e5', '3bb039ea7b8b991a7edcee1448d6237b0fd11114', '3db40f28196c2c256a8f569752ecf431127e2448', '3dd8e818530db41f139591a38013d39f236c4b12', '3edb7398658c2ea15bb7a0fb1b165ede08173dd0', '3f800f689d45228290321510e72296073eac36ba', '4002ecdef9a86d6a0e59e4a6946f03246a6716a1', '403d526fcf31826a929dcdcab17ee86e3506c202', '40b9671699743f175b2bc874ed74ad182bb6ac05', '45368ba004e47bd2e3e899f2f181205e3452aab1', '4628e0f7968c066e62ee36d593884ff7701dfaae', '46733af58b624bda14b209af557aca27d190db18', '47862463a3383173a3f3b4940d58ee6cd2de48fe', '479f34d4eadae1e11cb8b8397951326e0594ef6a', '4b4b60d997fd759ac6bbdaf6b9c689beb9e9ce64', '4b94ef8bbd4be606b9c520234d85fe55f4976d48', '4c8efbdacca82d85f55181802c0ec182892e78c2', '4d6a127284f97ffb3e86af810af2eaf5acb27f6e', '4ef178210ab29960f74778f8404a10f03a173e0a', '4fdd552ed0e9967a4bdd530eb9d11552fd685aed', '50e461cd22a9c0a2816e2949845ebe786d4fbf08', '51bf8b3f8781609d591d2d3c0fbcb57a93d142f1', '52570741b3410e0eb0c9a7ae35a82b70862d6047', '52c28939a6c0e0d62183342dc511abaf3fc28667', '549e0012ba5c127ef2c5dee6906df22c7d441cd6', '5ac827951fb83614dd926fd4a48d5642578c698f', '5caaf4615f625508f741aa8c9a9ffc45f1c01b26', '5dc2b1f33bbd2cc34ce35f593b0edb9e3c6ad902', '5de71cb1eb0bdbfca7c458a0f2501d011af93ae0', '616e8c86b3ec1c11c29aaaaee5af290e26e2e089', '62b034ba79b4eb3c7a8ea980f9ed745e55184778', '630c40c24fe8c603c6f7003eaeed6d058a2d9994', '65874be59c17cfc9273373f7e790a89899ffbb57', '679cec709ebe5d36999c6393b490daff7e5c3c3c', '6836b3dd9d8e255b9334137fdea7875cb2bf8c54', '6937864fa344d5557d257bdc4edca088dcf409ba', '694bc434c4269e212c43a78782ccdd650a0f5b98', '6ac1c0968dd0b163f1c84110a1eec841e19af575', '6b47a3b229a0a7dc9f44c59edb4245e1021187e0', '6ca6f7f01cee58ef2dc9207cd4a6a606dde784f2', '6d604610d948e5820321e8a51ba815d16e142d5a', '6de0a876e5bebbdb3e3ca42f04c64d75f8c33e0c', '6e3decd6b85db1d7131782c082cf5f7a3150d5bc', '6f29174b25521cf9477a4431b24c0078f52fb001', '6fb979f7ee557d5b56e35f2b9c65b0b01ce2a87e', '70067ada58d41757474d5f1b41b316d9dcb1faf6', '7030fcf20c165f1bd2c04407c5c279c442085500', '707dbdb70d71ce0499c2ca3ccc3970ac3df32f46', '733f394bcec96da4f702f1168c917c264417bbca', '7643cc81bf8d001a6f661f42a3284103acf43151', '768cb4d3438c52e193780ef7b13aefcdfb6275b1', '76b5b275a62576ca956aeb8faf42d04c267b61f3', '76d8068fbd474c7a22201e35db6995d889251805', '7751da6044959e648d6b93c1d8db381cbe354549', '7921cc3733edac801922e8acfecadffbc9867579', '7a3b24bfe2cd7b512da36af5c911d5f4739e955e', '7c085595ca5771a15f0c4aab72dd4312137da6e5', '7ef794777a3aca589b36bb8dd0738169564ac288', '7ffe7118d13dc46f199d90b8b8bdb8b02871e8fd', '80f2d8d5d654eaab4e5fdefb884885717625335e', '819aad534ee6ec3b28b01edf5246ab11fb74e6e7', '81a6db3c566a756d9b68a7f0290aa3bf0ccdeb1d', '8206c1e328ef32cbafe93897ccd5377781f1f88d', '8492c41eb574c818f740ac3a6a6d0ffca5973470', '856e1331ecb21a88d5421b3089f802217d769158', '8700a118ec607159b965382f56770e28f57d8763', '8749ba960121098a82dc42e57730a9d830ea9bcf', '878b41ab230a44658c94d054622effadaea8632f', '8911d3365bda7f38090b0457954ce9db6cef1b28', '8ab10d6173e6ca8ff0e03f8bf1dd70c25257ba43', '8d871343245af4b9b6c61e539217cd7f1845fa0b', '8da21d5bf8084323a877d5c8b6402c4d84fbdea5', '94297454d4c47baf01886a50eba5f705d4f42f8f', '96d91f2548232a7ba766348a0bd09a0648c97dbd', '97a139eab3af01e14c555cc77c25e2de454f4104', '985e6a49729ade5481652fdc51cc178a20540d04', '9924015de897034c5dfa2504229a9b0915ac524f', '99d51cb03c65422add0efd84828289aff2bfbe6e', '99d8b9b67fbb5f84c0c8540e879a64a1342c7214', '9a0474d50ac63a8d1b9560b18659e78f45dc2da2', '9abb48f7938f534b8d3da5ac3549b9768c09d871', '9bbbf6dde9127b2b9e90713e73ed633df8ca77cb', '9c343bb0c3d0fce13e203e6584e2535fcaddea19', '9e5db748aed0a2984ba7138555e4186145e9d837', '9f65dc4136f997fc70d5a5890517da7a96dd20e9', 'a17913f8b0add027360dfd0e76a15e85a79d499b', 'a290ab084700ab50a3e9732d3432c9fbe124d64f', 'a2a0f089a7f6d7336eadd52e50a3da2fcb9ce7b0', 'a2b7ab20038b1e7adde130b041f854d740223534', 'a3e575c8d9f5dfee6715857540fc3cb99e8acdac', 'a43b95569ecee52117a699eea6fabc84ff3b353c', 'a4b4c8f788db27c3132a96eb8d06c679b715b3f9', 'a6a9862d68a226b7bc3dc6af71b40288c0194dc3', 'a94c023fed8d9c9a7ad563333c976d91588a38ce', 'a9838848423ebc3cc369879617788c8faa035866', 'aa75245d461fd25114513d5811b749067c11f0e0', 'ac30174dcea7deb0759eba3f37c28f2c9155da5a', 'ac5741b804e6acac18935d8ac0f9b12fea227e09', 'ae07b3ab47baaf84a2b3e31722359855c778112c', 'aea30c69a9cbf11b5bd0bb51e7f447baeff2744c', 'b324e2d65ef4a5f7b0fa45ef07e045f82fc75d32', 'b38681e802d2d431cdc251e8f4fa8026cb10f54d', 'b38b9a1967eb6b70d5a86d051707e8059bb6ac1f', 'b6c4404d4482ab7ac27d955df817f3ef9b02c274', 'b70dfcadf9c1b8388a16572a4f8923d3b144f55b', 'b741a4144260787e41d3e65adf97d64d4b57a729', 'b851da430189e88d6410e16cd84d72998b29c44e', 'b86d93f52e333ce4e9dea449ea68d8060d2e19ec', 'b8915b5b3b457649ab2616e49637110d2456d0cc', 'ba4f1d3edc5ecca44a5badb3b50150bca126c709', 'babf3ef7f9ca05fe327ea0f20999f3e9980d1370', 'bb539c5aa1d3af4bad1439788c16c6d01f50c55b', 'bc08af2e1acf5ea50e63115545b91a7df01b4f78', 'bc9d98868df2ead377b57d4f5bac3595f058772c', 'bd02ff7597bb1e40d1f4fd0a15b06becd732b296', 'bd6d7f1d1b99c0a2de45782eb535fd9fbdeb604e', 'bd6e9cb2afcaefe22575af868e95a1c8ab729015', 'bdee01a8ee2fa000b8229697da0cd8518c33d46d', 'bfa582cb93e7939ea633146e88b6eeb389e539b2', 'c1340a2ddc6448d09feb1e9d38c032d0d2a088c7', 'c1a47888a9c0bd6bc0d0c6210dcc21e5e45b8265', 'c2add6c764921482af07d1a0564bb62bae39c27f', 'c30346274b275290ac1d9b1b8ab97d396fd8bc56', 'c4d85e3472c9c1fc6e86d034f03dd84ab98a8bdc', 'c6a83505d16ee6ccf173ea09df50b9db135d8fd6', 'ca62fd0fee2be4782bf6382d4b3514096934f64e', 'cad3fbe93485c52d78d15737a2943441ade76bfb', 'ce4bf6ec59ac23c6c5e6475f979f4f29a782f3e5', 'ce77e0fb73de63cf1b27406a276e7a6669458d4d', 'cfbab01e14f7bf76615e4724ac82528240bf4291', 'cfdd5f1ff422b07a6b622e8d2d678c0df1ed0657', 'd0a37aa02961c6e6286707be43d1ed5e215fd7fe', 'd1ddc0c8741528df760f6ecb18d389be5cab4ead', 'd28d95d0c812d0d994629832255a491901d14e61', 'd307f487194e216488b29eff7779a97ed190893a', 'd3684a6cf21398d9cb3a3beecefbf921ed978aea', 'd4e37bca06ad320c43772cfda6d026753aefaeaf', 'd5d71179d2842b78c48a28b207bd9405bd15c192', 'd67ff082753ddd800fe31abed52887146b429ab2', 'd6c9688bc768c0c9ea159f625ddd45f463829107', 'd7f4f17212de7e11a268fd1f5340879758a3ccd3', 'd8c616e9d03da83df651431ec9f1f033a7406265', 'd9b3b38b815ccbefbc0a2c714859e4cfcfad622b', 'da7f1c9b3788adb038edc44728c04979dc923076', 'dc176c0b250e4ab8be69624ac40ee977abbc03c3', 'dcbdbbbd050a2526776788c33f24c1c0fc0b807a', 'dd029311210ffc04bfa39115f3dde15838bfa182', 'de72be1876a610c174ae6214ca7ae977320ad9db', 'df5366a2b8a3e9241b40466791ae46309620d927', 'dff5a45c180a423984fe845dbe39c6d6647c3fe8', 'e03b50b9e47ea026a78d07ea3b969cb119fb34f9', 'e0b7c4e6f31a0621325a238dda6925adf108a454', 'e10431c539f06576de765fefd1924181b393c18d', 'e18783d9acf7b7ebe6385e3c5a3e143fdb782793', 'e1c8d28c66ef09641453cd766a00da63b1c959d0', 'e3494e27e37d6a73c0304dc635c2cd1e44dd6996', 'e3a6832dddc15d7c3cc23591a7ef24edb3c44f1b', 'e4873f05c9538d7580d2cefd9e9bd8cc86bf542a', 'e4b0ccf4efcd968f81ee049f98b7e01f1b5f6cc7', 'e54b100d57d4c233332a73d34683f24ab14de9cd', 'e569364bee22885c15cc043b5aa2e1d5d200d779', 'e602e613c36044f450c3c95dab0da9f662015119', 'e737b1f9540baacbfa7714fe46c6713559a57a2f', 'e7df1c49c3f26980841e880dc9d354268b0dda63', 'e9c08eccbdf9713da686e9265160568e6576e6f9', 'ec2cf434ec1163ba6b5f59c67ddb0e4c3bbe422d', 'ec7a2f46547dec07e780f4d12801ee05326594ee', 'ed5267e3360c7818975a2605907803bdab1ba305', 'efd5acf7b6eacf47c8b5f7609b7cd70ce2936c73', 'f12c38b55065da7d6ab9a692811bfe928a2b534d', 'f47da1e0d6930efd76d99422907af7f66800459e', 'f7c97b9308d40bddb87b10cca418de8e06f8c100', 'f8bc8446829c21937f1abf4e5d799ab21e1b3568', 'f9579f28c6b6616cef5df4c512ece8d8d1c010dc', 'f9b83423a284d3553463388f8431290e7effd0c8', 'fa52eafb019ac556f20a38adb50c3641c899cf2f', 'fabd70dace8c17dbab26a3e58c1a599149caa981', 'fc3b399104628505edd2b1cc7b8519f856aaebfd', 'fd75f5e64a0cd023f220ee5330ef3f387ab293be', 'fffb5ae63f18a25c1cf628a628be9a2f72c5f8ac', 'fffe1c0ad191f97f88d6f55a4ecdb984313486a5']
+2018-05-10 14:43:43,868 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:44,869 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 1
+2018-05-10 14:43:45,131 - mordred.task_enrich - DEBUG - No studies for pipermail
+2018-05-10 14:43:45,131 - mordred.task_manager - DEBUG - Executing task <mordred.task_panels.TaskPanelsAliases object at 0x7f8506da7470>
+2018-05-10 14:43:45,150 - mordred.task_manager - DEBUG - Sleeping in Task Manager 50 s
+2018-05-10 14:43:45,870 - mordred.task_identities - DEBUG - [load identities] Enrich tasks active: 0
+2018-05-10 14:43:45,891 - mordred.task_identities - INFO - Loading GrimoireLab identities in SortingHat
+2018-05-10 14:43:45,892 - mordred.task_identities - DEBUG - Executing ['grimoirelab2sh', '-i', '/identities.yaml', '-s', 'CHAOSS:manual', '-o', '/tmp/tmppwi0lb_g']
+2018-05-10 14:43:46,529 - mordred.task_identities - INFO - [sortinghat] Loading identities from file /tmp/tmppwi0lb_g
+2018-05-10 14:43:53,179 - mordred.task_identities - INFO - [sortinghat] End of loading identities from file /tmp/tmppwi0lb_g
+2018-05-10 14:43:53,179 - mordred.task_identities - DEBUG - Doing unify after identities load
+2018-05-10 14:43:53,179 - mordred.task_identities - DEBUG - Executing ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'unify', '--fast-matching', '-m', 'email']
+2018-05-10 14:43:59,011 - mordred.task_manager - DEBUG - Executing task <mordred.task_identities.TaskIdentitiesMerge object at 0x7f8506dfe9e8>
+2018-05-10 14:44:00,012 - mordred.task_identities - DEBUG - [unify] Enrich tasks active: 0
+2018-05-10 14:44:00,013 - mordred.task_identities - INFO - [sortinghat] Unifying identities using algorithm email
+2018-05-10 14:44:00,014 - mordred.task_identities - DEBUG - Executing ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'unify', '--fast-matching', '-m', 'email']
+2018-05-10 14:44:01,564 - mordred.task_identities - INFO - [sortinghat] Executing affiliate
+2018-05-10 14:44:01,565 - mordred.task_identities - DEBUG - Executing ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'affiliate']
+2018-05-10 14:44:02,194 - mordred.task_identities - ERROR - [sortinghat] Error in command ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'affiliate']
+2018-05-10 14:44:02,195 - mordred.task_identities - INFO - [sortinghat] Executing autoprofile for sources: ['CHAOSS:manual', 'git', 'github']
+2018-05-10 14:44:02,195 - mordred.task_identities - DEBUG - Executing ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'autoprofile', 'CHAOSS:manual', 'git', 'github']
+2018-05-10 14:44:02,748 - mordred.task_identities - ERROR - [sortinghat] Error in command ['sortinghat', '-u', 'root', '-p', '', '--host', 'mariadb', '-d', 'grimoirelab_sh', 'autoprofile', 'CHAOSS:manual', 'git', 'github']
+2018-05-10 14:44:02,749 - mordred.task_identities - INFO - [sortinghat] Autogender not configured. Skipping.
+2018-05-10 14:44:02,749 - mordred.task_identities - INFO - [sortinghat] Marking bots: ['BelovedBot']
+2018-05-10 14:44:02,756 - mordred.task_manager - ERROR - Exception in Task Manager (pymysql.err.OperationalError) (2013, 'Lost connection to MySQL server during query') [SQL: 'SELECT profiles.uuid AS profiles_uuid, profiles.name AS profiles_name, profiles.email AS profiles_email, profiles.gender AS profiles_gender, profiles.gender_acc AS profiles_gender_acc, profiles.is_bot AS profiles_is_bot, profiles.country_code AS profiles_country_code, countries_1.code AS countries_1_code, countries_1.name AS countries_1_name, countries_1.alpha3 AS countries_1_alpha3 \nFROM profiles LEFT OUTER JOIN countries AS countries_1 ON countries_1.code = profiles.country_code \nWHERE profiles.name = %(name_1)s'] [parameters: {'name_1': 'BelovedBot'}] (Background on this error at: http://sqlalche.me/e/e3q8)
+2018-05-10 14:44:05,159 - mordred.task_manager - DEBUG - Executing task <mordred.task_collection.TaskRawDataCollection object at 0x7f85072a26a0>
+2018-05-10 14:44:05,160 - mordred.task_collection - INFO - [github] raw data collection starts
+2018-05-10 14:44:05,161 - mordred.task_projects - DEBUG - List of repos for github: ['https://github.com/chaoss/prospector', 'https://github.com/chaoss/wg_diversity_inclusion', 'https://github.com/chaoss/grimoirelab', 'https://github.com/chaoss/grimoirelab-bestiary', 'https://github.com/chaoss/grimoirelab-elk', 'https://github.com/chaoss/grimoirelab-hatstall', 'https://github.com/chaoss/grimoirelab-kibiter', 'https://github.com/chaoss/grimoirelab-kidash', 'https://github.com/chaoss/grimoirelab-kingarthur', 'https://github.com/chaoss/grimoirelab-manuscripts', 'https://github.com/chaoss/grimoirelab-mordred', 'https://github.com/chaoss/grimoirelab-perceval', 'https://github.com/chaoss/grimoirelab-perceval-mozilla', 'https://github.com/chaoss/grimoirelab-perceval-opnfv', 'https://github.com/chaoss/grimoirelab-perceval-puppet', 'https://github.com/chaoss/grimoirelab-sortinghat', 'https://github.com/chaoss/grimoirelab-sigils', 'https://github.com/chaoss/grimoirelab-tutorial', 'https://github.com/chaoss/website', 'https://github.com/chaoss/whitepaper', 'https://github.com/chaoss/governance', 'https://github.com/cregit/cregit', 'https://github.com/OSSHealth/ghdata', 'https://github.com/chaoss/metrics']
+2018-05-10 14:44:05,161 - mordred.task_collection - DEBUG - ['chaoss', 'prospector', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:05,161 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/prospector
+2018-05-10 14:44:05,797 - mordred.task_collection - DEBUG - ['chaoss', 'wg_diversity_inclusion', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:05,797 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/wg_diversity_inclusion
+2018-05-10 14:44:06,402 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:06,403 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab
+2018-05-10 14:44:07,024 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-bestiary', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:07,024 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-bestiary
+2018-05-10 14:44:07,585 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-elk', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:07,585 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-elk
+2018-05-10 14:44:08,169 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-hatstall', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:08,169 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-hatstall
+2018-05-10 14:44:08,764 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-kibiter', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:08,764 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-kibiter
+2018-05-10 14:44:09,384 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-kidash', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:09,385 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-kidash
+2018-05-10 14:44:09,956 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-kingarthur', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:09,956 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-kingarthur
+2018-05-10 14:44:10,537 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-manuscripts', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:10,537 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-manuscripts
+2018-05-10 14:44:11,153 - mordred.task_collection - DEBUG - ['chaoss', 'grimoirelab-mordred', '--api-token', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', '--sleep-for-rate']
+2018-05-10 14:44:11,153 - mordred.task_collection - DEBUG - [github] collection starts for https://github.com/chaoss/grimoirelab-mordred

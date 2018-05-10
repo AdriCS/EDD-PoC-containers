@@ -48,10 +48,16 @@ $ base=https://github.com/docker/machine/releases/download/v0.14.0 &&
 $ sudo apt-get install virtualbox
 ```
 
+>**WARNING:** For running Elasticsearch properly, you must modify the vm.max_map_count value as follows:
+
+```
+sudo sysctl -w vm.max_map_count=262144
+```
+
 After setting the needed tools, we will cover the following sections:
 
 1. [Running the whole framework in a single container](https://github.com/albertinisg/EDD-PoC-containers/blob/master/section1)
-2. Running the whole framework in different isolated containers
+2. [Running the whole framework in different isolated containers](https://github.com/albertinisg/EDD-PoC-containers/blob/master/section2)
 3. Running the whole framework in different isolated services. The cluster
 4. Running the whole framework in a production environment. The cloud
 
