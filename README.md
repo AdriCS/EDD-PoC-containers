@@ -58,7 +58,7 @@ After setting the needed tools, we will cover the following sections:
 
 1. [Running the whole framework in a single container](https://github.com/albertinisg/EDD-PoC-containers/blob/master/section1)
 2. [Running the whole framework in different isolated containers](https://github.com/albertinisg/EDD-PoC-containers/blob/master/section2)
-3. Running the whole framework in different isolated services. The cluster
+3. [Running the whole framework in different isolated services. The cluster](https://github.com/albertinisg/EDD-PoC-containers/blob/master/section3)
 4. Running the whole framework in a production environment. The cloud
 
 ## License
