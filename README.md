@@ -57,9 +57,9 @@ sudo sysctl -w vm.max_map_count=262144
 After setting the needed tools, we will cover the following sections:
 
 1. [Running the whole framework in a single container](https://github.com/albertinisg/EDD-PoC-containers/tree/develop/section1)
-2. [Running the whole framework in different isolated containers](https://github.com/albertinisg/EDD-PoC-containers/tree/develop/section1)
-3. [Running the whole framework in different isolated services. The cluster](https://github.com/albertinisg/EDD-PoC-containers/tree/develop/section1)
-4. [Running a testing application in a clusterized environment](https://github.com/albertinisg/EDD-PoC-containers/tree/develop/section1)
+2. [Running the whole framework in different isolated containers](https://github.com/albertinisg/EDD-PoC-containers/tree/develop/section2)
+3. [Running the whole framework in different isolated services. The cluster](https://github.com/albertinisg/EDD-PoC-containers/tree/develop/section3)
+4. [Running a testing application in a clusterized environment](https://github.com/albertinisg/EDD-PoC-containers/tree/develop/section4)
 4. Running the whole framework in a production environment. The cloud
 
 ## License
